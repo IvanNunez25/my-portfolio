@@ -2,7 +2,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
+  --segmented-bg: #e5e7eb; /* bg-gray-200 */
+  --segmented-active-bg: #ffffff; /* bg-white */
+  --segmented-text: #4b5563; /* text-gray-600 */
+  --segmented-hover-bg: #d1d5db; /* hover:bg-gray-300 */
+  --segmented-active-text: #2563eb; /* text-blue-600 */
 }
 
 @theme inline {
@@ -14,8 +19,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0B0F1E;
     --foreground: #ededed;
+    --segmented-bg: #414962; /* bg-gray-800 */
+    --segmented-active-bg: #eaeaea; /* bg-gray-700 */
+    --segmented-text: #cbd5e1; /* text-gray-300 */
+    --segmented-hover-bg: #475569; /* hover:bg-gray-600 */
+    --segmented-active-text: #005E7A; /* text-blue-400 */
   }
 }
 
