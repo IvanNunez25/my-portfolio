@@ -46,7 +46,7 @@ body {
   display: none !important;
 }
 
-.container {
+#Experience {
   display: flex;
   justify-content: center;
 }
@@ -54,4 +54,13 @@ body {
 .p-timeline .p-timeline-event-marker {
   border: 2px solid #6CC7E3;
   background-color: var(--background);
+}
+
+.p-chip .p-chip-text {
+  font-size: 12px;
+  color: var(--segmented-text);
+}
+
+.p-chip {
+  background-color: var(--segmented-bg);
 }

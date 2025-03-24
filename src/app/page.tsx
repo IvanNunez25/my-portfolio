@@ -1,7 +1,16 @@
-import TimelineComponent from "@/components/TimelineComponent"
+import TimelineComponent from "@/components/TimelineComponent";
+import About from "@/components/About";
 
 export default function Home() {
   return (
-    <div><TimelineComponent /></div>
+    <div>
+      <div>
+        <About />
+      </div>
+      <div id="Experience">
+        <TimelineComponent />
+      </div>
+      
+    </div>
   );
 }

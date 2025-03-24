@@ -1,13 +1,13 @@
 "use client";
 
-import { BriefcaseIcon, DocumentDuplicateIcon, NewspaperIcon } from '@heroicons/react/24/outline';
+import { UserCircleIcon, DocumentDuplicateIcon, NewspaperIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-    { name: 'Experience', href: '/', icon: BriefcaseIcon },
-    { name: 'Proyectos', href: '/projects', icon: DocumentDuplicateIcon },
+    { name: 'About Me', href: '/', icon: UserCircleIcon },
+    { name: 'Projects', href: '/projects', icon: DocumentDuplicateIcon },
     { name: 'Blog', href: '/blog', icon: NewspaperIcon },
 ];
 
