@@ -10,12 +10,12 @@ export default function AboutMe() {
       <div className="flex-1 text-center md:text-left p-6">
         <h1 className="text-4xl font-bold">
           Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-cyan-500 to-teal-500 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-cyan-300 via-teal-500 to-lime-300 text-transparent bg-clip-text">
             Ivanovicx Nuñez
           </span>
         </h1>
         <p className="mt-2 text-gray-700 dark:text-gray-300">
-          Computer Science Engineer | Passionate about AI & Web Development
+          Computer Science Engineer | Passionate about AI, Data Science & Web Development
         </p>
         
         <div className="flex justify-center md:justify-start gap-4 mt-4">

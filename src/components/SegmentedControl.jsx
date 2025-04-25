@@ -6,9 +6,9 @@ import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-    { name: 'About Me', href: '/', icon: UserCircleIcon },
+    { name: 'About', href: '/', icon: UserCircleIcon },
     { name: 'Projects', href: '/projects', icon: DocumentDuplicateIcon },
-    { name: 'Blog', href: '/blog', icon: NewspaperIcon },
+    // { name: 'Blog', href: '/blog', icon: NewspaperIcon },
 ];
 
 export default function SegmentedControl() {
